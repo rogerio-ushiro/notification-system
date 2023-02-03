@@ -1,0 +1,10 @@
+.Stack {
+  margin: 2rem;
+}
+
+.TextField {
+  font-size: 3rem;
+  padding: 1rem;
+  width: 50rem;
+  text-align: center;
+}
