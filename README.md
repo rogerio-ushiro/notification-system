@@ -1,4 +1,4 @@
-<h1>Notifier System - React, Express, Node, Radis</h1>
+<h1>Notifier System - React, Express, Node, Redis</h1>
 
 Fictional notification system that has the ability to receive a message and depending on the
 category and subscribers, notify these users in the channels they are registered
