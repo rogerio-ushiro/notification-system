@@ -13,9 +13,12 @@ Three users were pre-registered for different usage.
 - Finance Notification will be send only to user "Foo", by SMS.
 
 - Movies only by SMS to user "Bar" through.
+
 - While "Baz" will receive Sports and Movies by E-mail and Push Notification.
 
-![communication](./img.readme/users.png "communication")
+  
+
+![](./img.readme/users.PNG )
 
 
 
@@ -25,7 +28,7 @@ Three users were pre-registered for different usage.
 
 Posting SPORTS section notification and as expected, only "BAZ" received. He got two notifications, E-mail and Push Notification.
 
-![communication](./img.readme/uso.gif "communication")
+![](./img.readme/uso.gif )
 
 
 
@@ -53,13 +56,13 @@ Since React.js works over Functional Programming concept, and Javascript is dyna
 
 Some evidences of implementation:
 
-![communication](./img.readme/extends.PNG "communication")
+![](./img.readme/extends.PNG )
 
 
 
-![communication](./img.readme/class.name.PNG "communication")
+![](./img.readme/class.name.PNG )
 
 
 
-![communication](./img.readme/user.model.PNG "communication")
+![](./img.readme/user.model.PNG )
 
