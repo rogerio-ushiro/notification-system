@@ -1,11 +1,10 @@
-import * as React from 'react';
-import List from '@mui/material/List';
-import ListItemButton from '@mui/material/ListItemButton';
-import ListItemText from '@mui/material/ListItemText';
-import ListItem from '@mui/material/ListItem';
+import * as React from "react";
+import List from "@mui/material/List";
+import ListItemButton from "@mui/material/ListItemButton";
+import ListItemText from "@mui/material/ListItemText";
+import ListItem from "@mui/material/ListItem";
 
 class TaskList extends React.Component {
-
   constructor(props) {
     super(props);
     this.state = { taskList: [props.data.taskList] };
@@ -19,7 +18,7 @@ class TaskList extends React.Component {
   render() {
     return (
       <div>
-        <List  >
+        <List>
           {this.props.data.taskList.map((value, index) => {
             return (
               <ListItem key={value + index} disablePadding>
@@ -30,15 +29,9 @@ class TaskList extends React.Component {
             );
           })}
         </List>
-      </div >
+      </div>
     );
   }
 }
 
 export default TaskList;
-
-
-
-
-
-

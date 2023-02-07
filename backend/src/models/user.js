@@ -1,11 +1,16 @@
+import { v4 as uuidv4 } from 'uuid';
+
 export default class User {
     constructor(name, email, phone, subscribed = [], channels = []) {
+        this.ID = uuidv4();
         this.name = name;
         this.email = email;
         this.phone = phone;
         this.subscribed = subscribed;
         this.channels = channels;
     }
+    get ID() { return this._ID }
+    set ID(ID) { this._ID = ID }
 
     get name() { return this._name }
     set name(name) { this._name = name }

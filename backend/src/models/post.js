@@ -1,5 +1,8 @@
+import { v4 as uuidv4 } from 'uuid';
+
 export default class Post {
     constructor(to, message, category, channel) {
+        this.ID = uuidv4();
         this.created = new Date();
         this.to = to;
         this.message = message;

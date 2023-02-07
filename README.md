@@ -52,16 +52,18 @@ Since in this project the "View" works completely separate from the backend and 
 
 Since React.js works over Functional Programming concepts and Javascript is dynamically-typed and is not a class-based object-oriented language so doesn't have many features to keep a great level of SOLID's concepts in evidence by default like Java language, I implemented some concepts to make the code in the backend OOP as much as possible.
 
-Some pieces of evidence of implementation:
+Some pieces as evidence of OOP implementation:
 
+1. Class and Inheritance:
 
 ![](./img.readme/extends.PNG )
 
 
+2. Encapsulation
 
-![](./img.readme/class.name.PNG )
+![](./img.readme/encapsulation.png )
 
+3. Objects
 
-
-![](./img.readme/user.model.PNG )
+![](./img.readme/user_class.png )
 
